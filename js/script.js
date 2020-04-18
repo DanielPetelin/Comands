@@ -1,5 +1,5 @@
 let aboutMe = '';
-let out = '';
+// let out = '';
 
 $(document).ready(function() {
     $(document).on('keydown', startCollect);
@@ -23,15 +23,7 @@ function collectSimbol(e) {
             $('#exampleModal').modal({
                 show : true
             });
-        };
-        // if (aboutMe == "alertShift('") {
-        //     out += e.key;
-        //     aboutMe + out;
-        //     if (aboutMe == "alertShift('" + out + "'Shift)") {
-        //         alert(out);
-        //     }
-        // };
-        if (aboutMe == "alertShift('hello'Shift)") {
+        } else if (aboutMe == "alertShift('hello'Shift)") {
             alert('hello');
         };
     };
