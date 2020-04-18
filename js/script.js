@@ -19,11 +19,19 @@ function collectSimbol(e) {
     } else {
         aboutMe += e.key;
         console.log(aboutMe);
-        if (aboutMe == 'activatemod') {
+        if (aboutMe == '/activate mod') {
             $('#exampleModal').modal({
                 show : true
             });
-        } else if (aboutMe == "alertShift('hello'Shift)") {
+        };
+        // else if (aboutMe == "alertShift('") {
+        //         out += e.key;
+        //         // console.log(out);
+        //         if (out.length >= 1 && aboutMe == "alertShift('" + out + "'Shift)") {
+        //             alert(out);
+        //         };
+        //     };
+        if (aboutMe == "alertShift('hello'Shift)") {
             alert('hello');
         };
     };
