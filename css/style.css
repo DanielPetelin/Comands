@@ -1,0 +1,33 @@
+.cancle {
+    padding: 5px;
+    font-weight: bold;
+    color: #6c757d;
+    background-color: white;
+    border: 3px solid #6c757d;
+    border-radius: 5px;
+}
+
+.cancle:hover {
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #6c757d;
+    box-shadow: 0 0 15px #6c757d;
+}
+
+.activate {
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #d65409;
+    background-color: white;
+    border: 3px solid #d65409;
+}
+
+.activate:hover {
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #d65409;
+    box-shadow: 0 0 15px #d65409;
+}
